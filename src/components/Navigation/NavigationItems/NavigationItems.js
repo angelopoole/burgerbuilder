@@ -4,7 +4,7 @@ const NavigationItems = () => {
 	return (
 		<ul>
 			<li>
-				<a href='/'> A link</a>
+				<a href='/'> A link to nav items</a>
 			</li>
 		</ul>
 	);
