@@ -2,8 +2,11 @@ import NavigationItem from './NavigationItem/NavigationItem';
 
 import classes from './NavigationItems.module.css';
 
-const NavigationItems = () => (
-	<ul className={classes.NavigationItems}>
+const NavigationItems = props => (
+	<ul
+		className={classes.NavigationItems}
+		style={{ flexDirection: props.flexDirection }}
+	>
 		<NavigationItem link='/' active>
 			Burger Builder
 		</NavigationItem>
