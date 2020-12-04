@@ -8,7 +8,7 @@ const sideDrawer = props => {
 	// conditionaly attatch css classes
 	return (
 		<>
-			<BackDrop show />
+			<BackDrop />
 			<div className={classes.SideDrawer}>
 				<div className={classes.Logo}>
 					<Logo />
