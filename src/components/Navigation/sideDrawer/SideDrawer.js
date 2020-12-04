@@ -6,9 +6,10 @@ import classes from './SideDrawer.module.css';
 
 const sideDrawer = props => {
 	// conditionaly attatch css classes
+
 	return (
 		<>
-			<BackDrop />
+			<BackDrop show={props.open} clicked={props.closed} />
 			<div className={classes.SideDrawer}>
 				<div className={classes.Logo}>
 					<Logo />
